@@ -17,3 +17,18 @@ html.dark {
     --primary-color: #fff;
     --secondary-color: #333;
 }
+
+html.dark {
+    background-color: #111;
+    color: var(--primary-color);
+}
+
+body {
+    font-family: 'Heebo', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
